@@ -1,0 +1,4 @@
+- hosts: all
+  tasks:
+    - name: Vérification de la connexion
+      ansible.builtin.ping:
